@@ -24,12 +24,13 @@ const courses = [
   ]
 
 // Create a map of countries and number of characters of a country
-countries = [
-    ['Finland', 'Helsinki'],
-    ['Sweden', 'Stockholm'],
-    ['Norway', 'Oslo'],
-  ]
-  const map = new Map(countries)
+let countries = ["Nigeria", "U.S.A", "Germany", "England", "Italy"]
+let countriesLength = new Set();
+for (let i = 0; i < countries.length; i++){
+        countriesLength.add(countries[i])
+        countriesLength.add(countries[i].length);
+}
+console.log(countriesLength);
 
 //   find a union b
 let a = [1, 2, 3, 4, 5]
