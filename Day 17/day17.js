@@ -22,8 +22,8 @@ let student = {
     country: "Nigeria"
 }
 
-let txt = JSON.stringify(student)
-localStorage.setItem("s1", "txt")
+let txts = JSON.stringify(student)
+localStorage.setItem("s1", "txts")
 
 
 // Exercises: Level 3
@@ -36,5 +36,5 @@ let personAccount = {
     country: "Nigeria"
 }
 
-let txt = JSON.stringify(student)
-localStorage.setItem("s1", "txt")
+let text = JSON.stringify(student)
+localStorage.setItem("s1", "text")

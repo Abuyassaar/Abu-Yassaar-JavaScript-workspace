@@ -28,7 +28,7 @@ let studentTxt = JSON.stringify(student)
 
 // Exercises Level 2
 // Stringify the students object with only firstName, lastName and skills properties
-const student = {
+const students = {
     firstName: 'Asabeneh',
     lastName: 'Yetayehe',
     age: 250,
@@ -36,8 +36,8 @@ const student = {
     skills: ['HTML', 'CSS', 'JS', 'React', 'Node', 'Python', ]
 }
 
-let studentTxt = JSON.stringify(student, ['firstName', 'lastName', 'skills'])
-console.log(studentTxt)
+let studentTxts = JSON.stringify(students, ['firstName', 'lastName', 'skills'])
+console.log(studentTxts)
 
 // Exercises Level 3
 // Parse the txt JSON to object.
