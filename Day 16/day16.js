@@ -41,7 +41,6 @@ console.log(studentTxt)
 
 // Exercises Level 3
 // Parse the txt JSON to object.
-// Find the user who has many skills from the variable stored in txt.
 const txt = `{
     "Alex": {
         "email": "alex@alex.com",
@@ -141,5 +140,6 @@ const txt = `{
 
 let parsedObject = JSON.parse(txt);
 console.log(parsedObject)
+// Find the user who has many skills from the variable stored in txt.
 let parsedSkill = JSON.parse(txt, ["skills"])
 console.log(parsedSkill)

@@ -4,7 +4,7 @@ class Animal {
     constructor(name, age, color, legs) {
         this.name = name;
         this.age = age;
-        this.color = color
+        this.color = color;
         this.legs = legs
     }
     getfullInfo() {
@@ -18,13 +18,17 @@ class Animal {
     }
 }
 
+
+// Create a Dog and Cat child class from the Animal Class.
 let dog = new Animal("jack", 4, "brown", 4);
 let cat = new Animal("brie", 2, "white", 4);
 
 console.log(dog.getfullInfo());
 console.log(cat);
 
-// Create a Dog and Cat child class from the Animal Class.
+
+// Exercises Level 2
+// Override the method you create in Animal class
 class Pet extends Animal {
     constructor(name, age, color, legs, gender) {
         super(name, age, color, legs)
@@ -42,10 +46,6 @@ class Pet extends Animal {
 
 let rabbit = new Pet("ross", 3, "snow-white", 4, "male")
 console.log(rabbit.getfullInfo());
-
-// Exercises Level 2
-// Override the method you create in Animal class
-
 
 // Exercises Level 3
 // Let's try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create a class called Statistics and create all the functions which do statistical calculations as method for the Statistics class.
