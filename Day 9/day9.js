@@ -172,7 +172,7 @@ console.log(firstIndexPosRussiaExist);
 
 
 
-const products = [{
+const productss = [{
     product: 'banana',
     price: 3
 },
@@ -198,9 +198,9 @@ const products = [{
 }
 ]
 
-const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand', 'italy', 'spain', 'germany', 'portugal', 'england', 'netherland', 'belgium', 'france', 'nigeria', 'U.S.A'];
+const countriess = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand', 'italy', 'spain', 'germany', 'portugal', 'england', 'netherland', 'belgium', 'france', 'nigeria', 'U.S.A'];
 
-let totalPrice = products.map(product => {
+let totalPrice = productss.map(product => {
 return product.price;
 }).filter(price => {
 return price > 0;
@@ -216,7 +216,7 @@ console.log(totalPrice);
 // })
 // console.log(sumOfProducts);
 
-const categorizeCountries = (countries) => {
+const categorizeCountries = (countriess) => {
 let coun = countries.filter(country => {
     return country.toLowerCase().includes("ia") || country.toLowerCase().includes("island") || country.toLowerCase().includes("land") || country.toLowerCase().includes("stan");
 })
