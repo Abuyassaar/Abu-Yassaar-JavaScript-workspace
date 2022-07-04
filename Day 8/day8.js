@@ -90,8 +90,8 @@ console.log(`${country.name}\n${country.capital}\n${country.population}\n${count
 
 
 let personAccount = {
-    firstName: "victor",
-    lastName: "kenneth",
+    firstName: "Abdulmajeed",
+    lastName: "Abdulrasaq",
     income: {
         freelancing: 10000,
         menialLabour: 2000
