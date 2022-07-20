@@ -210,7 +210,7 @@ return accumulator + currentValue;
 console.log(totalPrice);
 
 // let sumOfProducts = products.reduce((accumulator, currentValue) => {
-//     if (products.price > 0) {
+//     if (products.price > 0) {V
 //         return accumulator + currentValue.price
 //     }
 // })
