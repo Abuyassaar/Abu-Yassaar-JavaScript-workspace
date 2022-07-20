@@ -121,7 +121,7 @@ const getStringList = (arr) => {
     return nn;
 }
 
-let nn = getStringList(["victor", 3, 5, "kenneth"]);
+let nn = getStringList(["Abdulrasaq", 3, 5, "Abdulmajeed"]);
 console.log(nn);
 
 let sumOfNumbers = numbers.reduce((accumulator, currentValue) => {
