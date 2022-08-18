@@ -1,0 +1,91 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu, sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+header,
+.content-search {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: #f2a93b;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+p {
+  margin: 0.5rem 0 0 0;
+}
+
+header {
+  background: #eeeaef;
+  padding: 0.5rem;
+}
+
+.content-search {
+  padding: 1rem;
+  background: #fbfbfb;
+}
+
+input {
+  width: 40%;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 1px solid #eae6e6fc;
+  border-radius: 1rem;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  background: #f2a93b;
+}
+
+.contents {
+  padding: 1.5rem;
+  font-size: 0.8rem;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 6rem;
+  width: 6rem;
+}
+
+.content {
+  width: 15rem;
+  height: 15rem;
+  background: white;
+  padding: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+.content span {
+  display: block;
+  text-align: center;
+}
+
+.searchDisplay {
+color: orange;
+}

@@ -1,0 +1,89 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+input, button{
+    width: 17.5%;
+    font-size: 17px;
+    padding: 0.7rem 0.6rem;
+    margin: 0 0.1rem;
+    outline: none;
+}
+
+
+input{
+    border: 1px solid #e5c9c5;
+}
+
+input:focus{
+    border: 1px solid red;
+}
+
+button{
+    border: none;
+    background:  #e5c9c5;
+    color: #fff;
+}
+
+p{
+    color: red;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.leaders{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    background:  #e5c9c5;
+    padding: 1.2rem 0.7rem;
+    margin-top: 0.5rem;
+}
+
+.name-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.full-name, .countries{
+    text-transform: uppercase;
+}
+
+.date{
+    font-size: 0.7rem;
+    color: gray;
+}
+
+img{
+    height: 12px;
+    margin-top: 0;
+}
+
+.score-regulator{
+    padding: 1.1rem;
+    margin-left: 0.rem;
+    background: white;
+    border-radius: 50%;
+    font-size: 0.7rem;
+}
+
+.score-regulator:hover{
+    background: #def4b3;
+}

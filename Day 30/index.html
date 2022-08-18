@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>30DaysOfJavaScript:30</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>World Countries Data</h1>
+            <p class="totalCountry">Currently, we have 250 Countries</p>
+            <p class="searchDisplay">countries satisfied the search</p>
+        </header>
+
+        <div class="content-search">
+            <input type="text" name="inputEl">
+            <div class="buttons">
+                <button name="byName">Name</button>
+                <button name="byCapital">Capital</button>
+                <button name="byPopulation">Population</button>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="content">
+                <div class="content-img">
+                    <img src="https://restcountries.eu/data/afg.svg" alt="" srcset="">
+                    <span>${name}</span>
+                </div>
+                <p>Capital: ${capital}</p>
+                <p>Language: ${languages}</p>
+                <p>Population: ${population}</p>
+            </div>
+        </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
